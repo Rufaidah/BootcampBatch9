@@ -7,14 +7,15 @@ def verifikasi(pas):
 
     if (len(pas) < 8):
         return False
-    elif not re.search("[A-Z]", pas):
-        return True
-    elif not re.search(char, pas):
-        return True
+    elif re.search("[A-Z]",pas):
+        return False
+    elif re.search(char,pas):
+        return False
 
     else:
         return True
-
+    # elif re.match(r"^([\d]+)$",pas):
+    #     return True
 
 def password():
     if (verifikasi(pas) == True):
