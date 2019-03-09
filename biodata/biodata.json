@@ -1,0 +1,20 @@
+{
+	"nama" : "Rufaidah Taqiyyah",
+	"addres" : "Cipayung Jaya, Depok",
+	"hobbies" : ["Makan", "Nonton Anime"],
+	"is_married" : false,
+	"school" : {
+		"Key" : 12213,
+		"Univ" : "STT Terpadu Nurul Fikri"
+		},
+	"skills" : [
+		{
+			"pemograman" : "mobile",
+			"presentase" : "70%"
+		},
+		{
+			"pemograman" : "game",
+			"presentase" : "50%"
+		}
+	]
+}
